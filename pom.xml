@@ -1,12 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <groupId>com.niit</groupId>
-  <artifactId>ShoppingCartFrontEnd</artifactId>
-  <packaging>war</packaging>
+  <artifactId>ShoppingCartBackEnd</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ShoppingCartFrontEnd Maven Webapp</name>
+  <packaging>jar</packaging>
+
+  <name>ShoppingCartBackEnd</name>
   <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -29,19 +36,16 @@
     <artifactId>spring-context</artifactId>
     <version>4.1.6.RELEASE</version>
 </dependency>
-   <dependency>
+    <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-webmvc</artifactId>
     <version>4.1.6.RELEASE</version>
 </dependency>
-   <dependency>
+    <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-web</artifactId>
     <version>4.1.6.RELEASE</version>
 </dependency>
     
   </dependencies>
-  <build>
-    <finalName>ShoppingCartFrontEnd</finalName>
-  </build>
 </project>
